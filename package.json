@@ -14,5 +14,28 @@
     "gulp-sass": "^5.1.0",
     "gulp-scss": "^1.4.0",
     "sass": "^1.54.5"
-  }
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "name": "runsmart_project",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanLarionov90/runSmart_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanLarionov90/runSmart_project/issues"
+  },
+  "homepage": "https://github.com/IvanLarionov90/runSmart_project#readme",
+  "description": ""
 }

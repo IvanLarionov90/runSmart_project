@@ -1,0 +1,197 @@
+@media (max-width: 960px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 620px) {
+    .header {
+        &__logo {
+            width: 200px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 17px;
+        }
+    }
+    .advantage {
+        &__items {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            img {
+                margin-bottom: 5px;
+            }
+            &_header{
+                margin-bottom: 10px;
+            }
+            &:nth-child(n+2) {
+                margin-top: 25px;
+            }
+            &:after {
+                content: '';
+                display: block;
+                margin-top: 5px;
+                width: 100%;
+                height: 1px;
+                background-color: $main_color;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 15px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 125px;
+            height: 25px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        background: url(../../img/bg1_859.png) center center/cover no-repeat;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 37px;
+            margin-bottom: 15px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+        &__icons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 65px;
+            width: 425px;
+        }
+        &__icon {
+            width: 108px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #ffffff;
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+        }
+        &__link {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #ffffff;
+            a {
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+        }
+    }
+}
+@media (max-width: 470px) {
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 10px;
+            }
+        }
+        &__phone {
+            font-size: 14px;
+        }
+        .button {
+            width: 125px;
+            height: 25px;
+            font-size: 10px;
+        }
+    }
+    .promo {
+        background: url(../../img/bg1_859.png) center center/cover no-repeat;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+        &__subheader {
+            font-size: 18px;
+        }
+        &__icons {
+            width: 380px;
+        }
+    }
+}
+@media (max-width: 400px) {
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 10px;
+            }
+        }
+        &__phone {
+            font-size: 11px;
+        }
+        .button {
+            width: 110px;
+            height: 25px;
+            font-size: 8px;
+        }
+    }
+    .promo {
+        background: url(../../img/bg1_859.png) center center/cover no-repeat;
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            width: 350px;
+        }
+    }
+}

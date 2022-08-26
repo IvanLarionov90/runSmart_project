@@ -1,0 +1,28 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+    }
+    i {
+        width: 31px;
+        height: 50px;
+        font-size: 50px;
+        color: $main_color;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -66px;
+        cursor: pointer;
+        transition: 0.3s all linear;
+        &:nth-child(1) {
+            left: -66px;
+        }
+        &:hover {
+            font-size: 65px;
+            top: 48.5%;
+        }
+    }
+}
+

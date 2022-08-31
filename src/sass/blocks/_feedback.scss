@@ -1,0 +1,39 @@
+.feedback {
+	.title {
+		text-align: center;
+	}
+	&-item {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 48px;
+		margin-top: 40px;
+		&__text {
+			width: 680px;
+			&-title {
+				font-size: 18px;
+				line-height: 1.2;
+				font-weight: 700;
+				color: #0d0d0d;
+				margin-bottom: 10px;
+			}
+			&-subtitle {
+				font-size: 14px;
+				line-height: 1.2;
+				font-weight: 300;
+				color: #646464;
+				margin-bottom: 10px;
+			}
+			&-descr {
+				font-size: 16px;
+				line-height: 1.2;
+				font-weight: 400;
+				color: #0d0d0d;
+			}
+		}
+	}
+	hr {
+		height: 1px;
+		background-color: #d8d8d8;
+	}
+}

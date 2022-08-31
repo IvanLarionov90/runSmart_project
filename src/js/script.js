@@ -5,28 +5,6 @@ $(document).ready(function () {
 		cssEase: 'linear',
 		prevArrow: '<i class="slick-prev fa-solid fa-chevron-left"></i>',
 		nextArrow: '<i class="slick-next fa-solid fa-chevron-right"></i>',
-		responsive: [{
-				breakpoint: 768,
-				settings: {
-					dots: true,
-					arrows: false
-				}
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
 	});
 
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function () {
